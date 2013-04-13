@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif; text-align:center; margin:0 auto;}
+table{border-collapse:collapse;border-spacing:0;}
+b,em,i{ font-style:normal; font-weight:normal;}
+h1,h2,h3{ font-size:14px;}
+h4{font-weight:normal; font-size:14px;}
+h5{ font-size:12px;}
+h6{ font-size:12px;font-weight:normal;}
+img{display:block;}
+.pcenter{ text-align:center; overflow:hidden;}
+.pcenter img{ margin:0 auto;}
+a{ text-decoration:none;}
+
+
+/*幻灯片CSS*/
+.fi10,.fi10 .fi_ct li{position:relative;width:980px;height:326px;overflow:hidden; z-index:0;}
+.fi10 .fi_ct li{position:absolute;left:0;top:0;}
+.fi10 a:focus,.fi10 a:visited{outline:none;}
+.fi_ct img,.fi10 .fi_ct a{display:block;width:980px;height:326px; color:#fff;}
+.fi_ct a{ color:#000;}
+.fi_tab_c{position:absolute;height:38px;text-align:right; top:288px;left:1px;}
+.fi_tab li{float:left; margin-right:-1px;}
+.fi_tab a{display:block; color:#fff; background:url(../images/bg01.png) no-repeat; width:123px; height:38px; text-align:center; line-height:38px;}
+.fi_tab li.fi_now a{background:url(../images/bg02.png) no-repeat; color:#000;}
